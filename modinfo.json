@@ -1,0 +1,14 @@
+{
+  "type": "content",
+  "modid": "shotglasses",
+  "name": "Shot Glasses",
+  "description": "Adds 0.1L shot glasses so you can take smaller quantities of alcohol",
+  "authors": [
+    "Zaedin"
+  ],
+  "version": "1.0.0",
+  "dependencies": {
+    "game": "",
+    "aculinaryartillery": "1.2.0"
+  }
+}

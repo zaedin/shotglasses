@@ -1,0 +1,49 @@
+﻿[
+  {
+    "ingredientPattern": "S,B",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:saw-*",
+        "istool": "true"
+      },
+      "B": {
+        "type": "block",
+        "code": "aculinaryartillery:bottle-glass-*-fired",
+        "name": "color"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "name": "shotglass",
+    "output": {
+      "type": "block",
+      "code": "shotglass-glass-{color}",
+      "quantity": 2
+    }
+  },
+  {
+    "ingredientPattern": "S,B",
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:saw-*",
+        "istool": "true"
+      },
+      "B": {
+        "type": "block",
+        "code": "aculinaryartillery:bottle-glass-*-corked",
+        "returnedStack": { "type": "item", "code": "aculinaryartillery:cork-generic" },
+        "name": "color"
+      }
+    },
+    "width": 1,
+    "height": 2,
+    "name": "shotglass",
+    "output": {
+      "type": "block",
+      "code": "shotglass-glass-{color}",
+      "quantity": 2
+    }
+  }
+]

@@ -6,7 +6,7 @@
 /contentModel.xml
 /modules.xml
 /.idea.shotglasses.iml
-/.idea/
+/.idea
 # Editor-based HTTP Client requests
 /httpRequests/
 # Datasource local storage ignored files
