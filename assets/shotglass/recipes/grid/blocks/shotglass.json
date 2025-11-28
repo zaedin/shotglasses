@@ -1,49 +1,62 @@
 ﻿[
-  {
-    "ingredientPattern": "S,B",
-    "ingredients": {
-      "S": {
-        "type": "item",
-        "code": "game:saw-*",
-        "istool": "true"
-      },
-      "B": {
-        "type": "block",
-        "code": "aculinaryartillery:bottle-glass-*-fired",
-        "name": "color"
-      }
+    {
+        "ingredientPattern": "S_,BC",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:saw-*",
+                "istool": "true",
+                "toolDurabilityCost": 1
+            },
+            "C": {
+                "type": "item",
+                "code": "game:chisel-*",
+                "istool": "true",
+                "toolDurabilityCost": 1
+            },
+            "B": {
+                "type": "block",
+                "code": "game:glassslab-*-down-free",
+                "name": "color"
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "name": "shotglass",
+        "output": {
+            "type": "block",
+            "code": "shotglass-{color}",
+            "quantity": 2
+        }
     },
-    "width": 1,
-    "height": 2,
-    "name": "shotglass",
-    "output": {
-      "type": "block",
-      "code": "shotglass-glass-{color}",
-      "quantity": 2
+    {
+        "ingredientPattern": "S_,GC",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:saw-*",
+                "istool": "true",
+                "toolDurabilityCost": 1
+            },
+            "C": {
+                "type": "item",
+                "code": "game:chisel-*",
+                "istool": "true",
+                "toolDurabilityCost": 1
+            },
+            "G": {
+                "type": "block",
+                "code": "game:glass-*",
+                "name": "glassblock"
+            }
+        },
+        "width": 2,
+        "height": 2,
+        "name": "shotglass",
+        "output": {
+            "type": "block",
+            "code": "shotglass-{glassblock}",
+            "quantity": 4
+        }
     }
-  },
-  {
-    "ingredientPattern": "S,B",
-    "ingredients": {
-      "S": {
-        "type": "item",
-        "code": "game:saw-*",
-        "istool": "true"
-      },
-      "B": {
-        "type": "block",
-        "code": "aculinaryartillery:bottle-glass-*-corked",
-        "returnedStack": { "type": "item", "code": "aculinaryartillery:cork-generic" },
-        "name": "color"
-      }
-    },
-    "width": 1,
-    "height": 2,
-    "name": "shotglass",
-    "output": {
-      "type": "block",
-      "code": "shotglass-glass-{color}",
-      "quantity": 2
-    }
-  }
 ]
